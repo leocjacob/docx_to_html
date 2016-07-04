@@ -11,6 +11,8 @@ Version 1.0
 
 -Open tool\d2h_tool\dist\d2h_tool\d2h_tool.exe
 
+-Type in file name or '*' for batch conversion
+
 -Copy docx files to docx folder tool\d2h_tool\dist\d2h_tool\docx
 
 -Output tool\d2h_tool\dist\d2h_tool\html
