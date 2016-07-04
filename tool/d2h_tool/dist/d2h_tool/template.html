@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="angularjs-starter">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="REFRESH" content="60">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/static/img/favicon.ico">
+		<title>UMS | Help</title>
+		<!-- Styles are added -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/jquery.treeview.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Scripts are added -->
+		<script src="js/jquery.min.js"></script><!-- Jquery 1.11.0 -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-sanitize.js"></script>
+		<script src="js/data.js"></script>
+		<script src="js/search_en.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body ng-controller="SimpleController">
+		<div id="wrap">
+			<header>
+				<div class="head-top">
+					<a href="help.html"><img alt="UMS - unified messaging system" src="images/logo.jpg" /></a>
+				</div>
+				<nav class="navigation navbar" role="navigation">
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="" id="bs-example-navbar-collapse-1">
+					<div class="navbar-brand">Support</div>
+					  <ul class="nav navbar-nav main-nav">
+						<li class="active"><a href="help.html">Help</a></li>
+						<li><span>|</span></li>
+						<li><a href="faqs.html">FAQs</a></li>
+						<li><span>|</span></li>
+						<li><a href="customer-care.html">Customer Care</a></li>
+						<li><span>|</span></li>
+
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</header>
+			<div id="main">
+									<div class="left-panel equal-height">
+					<h2 class="left-panel-head">
+						Browse by Topics
+					</h2>
+					<ul class="nav-treeview" id="accordion">
+						<li><a href="help.html">How to use this Online Help System</a></li>
+						<li><span><a href="help-ums-work.html">How do UMS Alerts work?</a></span></li>
+						<li class="panel panel-default">
+							<div class="nav-head">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">Working as an Administrator</a>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse">
+								<ul>
+
+									<li><span><a href="accessing-administration.html">Accessing administrator’s functions</a></span></li>
+									<li><span><a href="adding-organization.html">Adding Organizations</a></span></li>
+									<li><span><a href="setting-date-time.html">Setting date and time format</a></span></li>
+									<li><span><a href="modifying-organization.html">Modifying Organizations</a></span></li>
+									<li><span><a href="assigning-role.html">Assigning Roles</a></span></li>
+									<li><span><a href="modifying-roles.html">Modifying Roles</a></span></li>
+									<li><span><a href="adding-users.html">Adding users</a></span></li>
+									<li><span><a href="modifying-users.html">Modifying users</a></span></li>
+									<li><span><a href="changing-password.html">Changing your Login Password</a></span></li>
+								</ul>
+							</div>
+						</li>
+						<li class="panel panel-default">
+							<div class="nav-head">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">My Dashboard</a>
+							</div>
+							<div id="collapse2" class="panel-collapse collapse">
+								<ul>
+									<li><span><a href="logging-required-settings.html">Logging in and the Required Settings</a></span></span></li>
+
+									<li><span><a href="using-dashboard.html">Using the Dashboard </a></span></li>
+
+								</ul>
+							</div>
+						</li>
+						<li class="panel panel-default">
+							<div class="nav-head">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed main-head">Using UMS Alerts Functionality</a>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse in">
+								<ul>
+									<li>
+										<span><a href="Required-elements-Send-alerts.html">Configuring Required Elements to Send Alerts</a></span>
+									</li>
+								</ul>
+								<ul class="sublist2">
+									<!--conv_active_link-->
+									<li><span><a href="adding-recipients.html">Adding Recipients to a Group</a></span> </li>
+									<li><span><a href="setting-up-areas.html">Setting up Areas on the Map to Send Alerts</a></span></li>
+									<li><span><a href="message-send-alerts.html">Configuring Message to Send Alerts</a></span></li>
+									<li><span><a href="channels-send-alerts.html">Configuring Channels to Send Alerts</a></span></li>
+									<li><span><a href="CallFlowConfiguration.html">Call Flow Configuration </a></span></li>
+									<li><span><a href="CAPOutbound.html">CAP Outbound </a></span></li>
+									<li><span><a href="ChannelSettingsinAlertComposer.html">Channel Settings in Alert Composer</a></span></li>
+									<li><span><a href="ExternalMapEdit.html">External Map Edit </a></span></li>
+									<li><span><a href="FacebookTwitter.html">Facebook, Twitter </a></span></li>
+									<li><span><a href="ResendbyStatus.html">Resend by Status </a></span></li>
+									<li><span><a href="SMSResponse.html">SMS Response </a></span></li>
+									<li><span><a href="TravelerAlertSystem.html">Traveler Alert System </a></span></li>
+									<li><span><a href="VoiceResponse.html">Voice Response </a></span></li>
+								</ul>
+								<ul>
+									<li>
+										<a >Creating Alert Templates and Sending Alerts</a>
+									</li>
+
+								</ul>
+								<ul class="sublist2">
+									<li><span><a href="alert-sending-applicable-for-all-channels.html">Alert sending - Applicable for all channels</a></span></li>
+									<li><span><a href="sms-lbas-alert.html">SMS LBAS alert sending with approval - SPAS</a></span> </li>
+								</ul>
+
+
+								<ul>
+									<li><span><a href="monitoring-alerts.html">Monitoring  Alerts</a></span></li>
+									<li><span><a href="generating-reports.html">Generating Reports</a></span></li>
+								</ul>
+
+							</div>
+						</li>
+						<li><span><a href="troubleshooting.html">Troubleshooting</a></span></li>
+						<li class="scroll-space"><span><a href="glossary.html">Glossary</a></span></li>
+					</ul>
+				</div>
+				<div class="middle-panel">
+					<div id="content" class="content">
+						<div class="row section-spacing">
+							<div class="col-lg-6">
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="search" id="autocomplete">
+									<span class="input-group-btn">
+										<button class="btn search-btn" type="button"><span class="search-icon"></span></button>
+									</span>
+								</div>
+							</div>
+						</div>
+						<section id="section-1" class="section-spacing" >
+							<div class="row line-spacing">
+								<!--conv_content-->
+								</div>
+						</section>
+					</div>
+				</div>
+				<aside class="right-panel equal-height">
+					<h2>Quick Tips</h2>
+					<div class="tips-txt section-spacing">
+						<p>On click of<span class="check-icon"></span> symbol in front of the Name, all the available alerts get selected.</p>
+					</div>
+					<div class="related-topic">
+					<h2>Related Topics</h2>
+						<ul class="lsn">
+							<li><a class="wrap-line" href="channels-send-alerts.html">Configuring Channels to Send Alerts</a></li>
+							<li><a class="wrap-line" href="alert-templates-sending-alerts.html">Creating Alert Templates</a></li>
+						</ul>
+					</div>
+				</aside>
+		<div id="footer">
+			<p></p>
+		</div>
+		<script src="js/jquery-ui-1.10.4.custom.js"></script>
+	</body>
+	<HEAD>
+        <meta http-equiv="PRAGMA" content="NO-CACHE">
+    </HEAD>
+</html>
