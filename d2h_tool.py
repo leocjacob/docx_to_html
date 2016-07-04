@@ -1,6 +1,7 @@
 '''
 Code written and maintained by https://github.com/makerspaze
 Author : leoCj
+Source Code :https://github.com/makerspaze/docx_to_html
 '''
 import os.path
 import shutil
