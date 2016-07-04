@@ -4,8 +4,8 @@ D2H_Tool is a python executable which convert docx file to html.
 
   - Batch conversion is possible
   - Simple cli user interface
-### Version
-1.0
+
+Version 1.0
 
 ### Installation
 
