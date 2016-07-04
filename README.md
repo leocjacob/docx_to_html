@@ -7,6 +7,15 @@ D2H_Tool is a python executable which convert docx file to html.
 
 Version 1.0
 
+### Workflow
+
+-Open tool\d2h_tool\dist\d2h_tool\d2h_tool.exe
+
+-Copy docx files to docx folder tool\d2h_tool\dist\d2h_tool\docx
+
+-Output tool\d2h_tool\dist\d2h_tool\html
+
+
 ### Installation
 
 D2H_Tool.exe can be found in tool\d2h_tool\dist\d2h_tool folder.
